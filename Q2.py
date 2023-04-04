@@ -2,6 +2,7 @@ RED = "red"
 BLUE = "blue"
 YELLOW = "yellow"
 
+
 color1 = input("Enter first primary color (red, blue, yellow): ")
 color2 = input("Enter second primary color (red, blue, yellow): ")
 
@@ -13,11 +14,11 @@ elif color2 not in (RED, BLUE, YELLOW):
 elif color1 == color2:
     print("Error: The two colors you entered are same")
 else:
-    #collaborating the colors
+    # Mixing the two primary colors
     if color1 == RED:
-     if color2 == BLUE:
+        if color2 == BLUE:
             print("Purple")
-     else: # color2 must be YELLOW
+        else: # color2 must be YELLOW
             print("Orange")
     elif color1 == BLUE:
         if color2 == RED:
@@ -28,4 +29,7 @@ else:
         if color2 == RED:
             print("Orange")
         else: # color2 must be BLUE
-            print("Green")
+         print("Green")
+
+
+
